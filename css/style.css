@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Global Css Start */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.bg1{
+    background: #F9799A;
+}
+.bg2{
+    background: #61C4D8;
+}
+.bg3{
+    background: #0E72CC;
+}
+.bg4{
+    background: #F5F7FA;
+}
+/* Global Css End */
+/* Header Css Start */
+.header{
+    width: 100%;
+}
+.inner-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 175px;
+    margin: 10px 0px;
+}
+.menu{
+    width: 100%;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    margin: 0px 15px;
+    color: #0665c4;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: 0.5s ease-in;
+}
+.menu ul li a:hover{
+    color: #00AEEF;
+}
+.buttons-group{
+    display: flex;
+}
+.btn-info{
+    display: inline-flex;
+    padding: 10px 20px;
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665c4;
+    color: #fff;
+    transition: 0.5s ease-in;
+    align-items: center;
+}
+.btn-info i{
+    margin-right: 5px;
+}
+.btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+}
+/* Header Css End */
+/* Banner Css Start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../img/Hero-BG.jpg") center no-repeat;
+    background-size: cover;
+}
+.inner-banner{
+    display: flex;
+    align-items: center;
+}
+.left-banner{
+    flex-basis: 50%;
+}
+.left-banner h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #0665c4;
+}
+.left-banner p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #0665c4;
+    margin: 15px 0px;
+}
+.left-banner .btn-info{
+    margin: 0px;
+    border-radius: 5px;
+}
+.right-banner{
+    flex-basis: 50%;
+    text-align: center;
+    padding-left: 50px;
+}
+.right-banner img{
+    width: 100%;
+    height: auto;
+}
+/* Banner Css End */
+/* Feature Css Start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    display: flex;
+}
+.graduates{
+    display: flex;
+    flex-basis: 30%;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.earned{
+    display: flex;
+    flex-basis: 30%;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.members{
+    display: flex;
+    flex-basis: 30%;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.icon{
+    flex-basis: 15%;
+}
+.icon .fa-solid{
+    font-size: 24px;
+    color: #fff;
+}
+.content{
+    flex-basis: 85%;
+}
+.content h4{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+    margin: 15px 0px 0px;
+}
+/* Feature Css End */
+/* Project Css Start */
+.project{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-project{
+    display: flex;
+    align-items: center;
+}
+.left-project{
+    flex-basis: 40%;
+    padding-right: 60px;
+}
+.left-project h4{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #171f3c;
+    margin-bottom: 10px;
+}
+.left-project h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #171f3c;
+    margin-bottom: 20px;
+}
+.left-project p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #526375;
+    margin-bottom: 30px;
+}
+.left-project .btn-info{
+    margin: 0px;
+    border-radius: 5px;
+}
+.right-project{
+    flex-basis: 60%;
+}
+.right-project img{
+    width: 100%;
+}
+/* Project Css End */
+/* Support Css Start */
+.support{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-support{
+    display: flex;
+    align-items: center;
+}
+.left-support{
+    flex-basis: 60%;
+}
+.left-support img{
+    width: 100%;
+}
+.right-support{
+    flex-basis: 40%;
+    padding-left: 30px;
+}
+.right-support h4{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #171f3c;
+    margin-bottom: 10px;
+}
+.right-support h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #171f3c;
+    margin-bottom: 20px;
+}
+.right-support p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #526375;
+    margin-bottom: 30px;
+}
+.right-support .btn-info{
+    margin: 0px;
+    border-radius: 5px;
+}
+/* Support Css End */
+
+
+/* Earning Css Start */
+/* Earning Section Css Add Project Section */
+/* Earning Css End */
+
+/* Top Courses Css Start */
+.top-courses{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../img/background.jpg") center no-repeat;
+    background-size: cover;
+}
+.inner-top-courses{
+    width: 100%;
+}
+.top-top-courses{
+    width: 100%;
+    margin: 0px auto;
+}
+.top-top-courses h1{
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.buttom-top-courses{
+    margin-top: 40px;
+}
+.courses{
+    display: flex;
+}
+.courses-content{
+    width: 100%;
+    flex-basis: 25%;
+    padding: 15px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.courses1 .img-title{
+    width: 100%;
+    background: url("../img/digital-marketing.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses2 .img-title{
+    width: 100%;
+    background: url("../img/full-stack.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses3 .img-title{
+    width: 100%;
+    background: url("../img/graphic.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses4 .img-title{
+    width: 100%;
+    background: url("../img/shopify.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.img-title h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.img-title span{
+    font-size: 16px;
+}
+.courses-title{
+    padding: 15px 0px 0px 5px;
+}
+.courses-title h5{
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.courses-details{
+    padding: 0px 5px 10px;
+}
+.courses-details p{
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+/* Top Courses Css End */
+
+/* Video Section Css Start */
+.video-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-video{
+    display: flex;
+}
+.inner-video img{
+    width: 100%;
+}
+/* Video Section Css End */
+/* Address Css Start */
+.address-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-address {
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: 100px 60px 80px 60px;
+    background-color: #0e72cc;
+}
+.inner-address h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.inner-address p{
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+.address-content{
+    text-align: center;
+}
+/* Address Css End */
+
+
+/* Footer Css Start */
+.footer-section{
+    width: 100%;
+}
+.top-footer{
+    width: 100%;
+    padding: 30px 0 20px;
+}
+.inner-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    flex-basis: 25%;
+    padding: 0px 15px;
+}
+.box1 h5{
+    color: #0e72cc;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box1 p{
+    color: #91a3bb;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+.box1 ul{
+    list-style: none;
+}
+.box1 ul li a{
+    line-height: 28px;
+    color: #91a3bb;
+    transition: 0.4s ease-in;
+}
+.box1 ul li a:hover{
+    color: #0e72cc;
+    padding-left: 5px;
+}
+.inner-bottom{
+    width: 100%;
+}
+.inner-bottom img{
+    padding: 20px 0 0;
+    width: 100%;
+}
+.bottom-footer{
+    padding: 20px 0px;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p {
+    margin: 0px auto;
+    padding: 0px;
+    color: #0e72cca1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.copyright p span{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* Footer Css End */
